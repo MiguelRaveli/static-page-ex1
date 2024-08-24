@@ -1,0 +1,850 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("imgs/background.svg") no-repeat center center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.sendEmail{
+    box-shadow: 0px 1px 2px black;
+}
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+  /* Header Nav */
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+  }
+
+  nav {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav li {
+    float: left;
+    display: block;
+    color: #2c2c2c;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .logo {
+    width: 100%;
+    height: 50%;
+  }
+
+  .quoteButton {
+    background-color: #f369e8;
+    color: #eeeeee;
+    border-radius: 10px;
+  }
+
+  /* ------------------------------------ */
+
+  /* Home */
+
+  #Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 75vh;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+
+  .image {
+    width: 100%;
+    height: 50%;
+  }
+
+  /* ------------------------------------ */
+
+  /* sendEmail */
+
+  .sendEmail {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .sendEmail input {
+    width: 70%;
+    height: 100%;
+    outline: none;
+    border: none;
+  }
+
+  .sendEmail button {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(#f369e8, #cf5ac6);
+    color: #eeeeee;
+  }
+
+  /* ------------------------------------ */
+}
+@media (min-width: 480px) {
+  /* smartp  hones, Android phones, landscape iPhone */
+  /* Header Nav */
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+  }
+
+  nav {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav li {
+    float: left;
+    display: block;
+    color: #2c2c2c;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .logo {
+    width: 100%;
+    height: 50%;
+  }
+
+  .quoteButton {
+    background-color: #f369e8;
+    color: #eeeeee;
+    border-radius: 10px;
+  }
+
+  /* ------------------------------------ */
+
+  /* Home */
+
+  #Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 75vh;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+
+  .image {
+    width: 100%;
+    height: 50%;
+  }
+
+  /* ------------------------------------ */
+
+  /* sendEmail */
+
+  .sendEmail {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .sendEmail input {
+    width: 70%;
+    height: 100%;
+    outline: none;
+    border: none;
+  }
+
+  .sendEmail button {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(#f369e8, #cf5ac6);
+    color: #eeeeee;
+  }
+
+  /* ------------------------------------ */
+}
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* Header Nav */
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+  }
+
+  nav {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav li {
+    float: left;
+    display: block;
+    color: #2c2c2c;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .logo {
+    width: 100%;
+    height: 50%;
+  }
+
+  .quoteButton {
+    background-color: #f369e8;
+    color: #eeeeee;
+    border-radius: 10px;
+  }
+
+  /* ------------------------------------ */
+
+  /* Home */
+
+  #Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 75vh;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+
+  .title h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+
+  .title p {
+    font-size: 1em;
+  }
+
+  .image {
+    width: 100%;
+    height: 50%;
+  }
+
+  /* ------------------------------------ */
+
+  /* sendEmail */
+
+  .sendEmail {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+  }
+
+  .sendEmail input {
+    width: 70%;
+    height: 100%;
+    outline: none;
+    border: none;
+  }
+
+  .sendEmail button {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(#f369e8, #cf5ac6);
+    color: #eeeeee;
+  }
+
+  /* ------------------------------------ */
+}
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* Header Nav */
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+  }
+
+  nav {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav li {
+    float: left;
+    display: block;
+    color: #2c2c2c;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .logo {
+    width: 100%;
+    height: 50%;
+  }
+
+  .quoteButton {
+    background-color: #f369e8;
+    color: #eeeeee;
+    border-radius: 10px;
+  }
+
+  /* ------------------------------------ */
+
+  /* Home */
+
+  #Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 75vh;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+  }
+
+  .title h1 {
+    font-size: 2em;
+    margin: 0;
+    width: 85%;
+  }
+
+  .title p {
+    font-size: 1em;
+    width: 85%;
+  }
+
+  .image {
+    width: 50%;
+    height: 100%;
+  }
+
+  /* ------------------------------------ */
+
+  /* sendEmail */
+
+  .sendEmail {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+  }
+
+  .sendEmail input {
+    width: 65%;
+    height: 100%;
+    outline: none;
+    border: none;
+  }
+
+  .sendEmail button {
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(#f369e8, #cf5ac6);
+    color: #eeeeee;
+  }
+
+  /* ------------------------------------ */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+  }
+
+  nav {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav li {
+    float: left;
+    display: block;
+    color: #2c2c2c;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .logo {
+    width: 30%;
+    height: 70%;
+  }
+
+  .quoteButton {
+    background-color: #f369e8;
+    color: #eeeeee;
+    border-radius: 10px;
+  }
+
+  /* ------------------------------------ */
+
+  /* Home */
+
+  #Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 75vh;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+  }
+
+  .title h1 {
+    font-size: 2.5em;
+    margin: 0;
+    width: 85%;
+  }
+
+  .title p {
+    font-size: 1.2em;
+    width: 85%;
+  }
+
+  .image {
+    width: 50%;
+    height: 100%;
+  }
+
+  /* ------------------------------------ */
+
+  /* sendEmail */
+
+  .sendEmail {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+  }
+
+  .sendEmail input {
+    width: 65%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.1em;
+  }
+
+  .sendEmail button {
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(#f369e8, #cf5ac6);
+    color: #eeeeee;
+    font-size: 1.1em;
+  }
+
+  /* ------------------------------------ */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+  /* big landscape tablets, laptops, and desktops */
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+  }
+
+  nav {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav li {
+    float: left;
+    display: block;
+    color: #2c2c2c;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .logo {
+    width: 30%;
+    height: 70%;
+  }
+
+  .quoteButton {
+    background-color: #f369e8;
+    color: #eeeeee;
+    border-radius: 10px;
+  }
+
+  /* ------------------------------------ */
+
+  /* Home */
+
+  #Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 75vh;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+  }
+
+  .title h1 {
+    font-size: 3em;
+    margin: 0;
+    width: 70%;
+  }
+
+  .title p {
+    font-size: 1.5em;
+    width: 70%;
+  }
+
+  .image {
+    width: 50%;
+    height: 100%;
+  }
+
+  /* ------------------------------------ */
+
+  /* sendEmail */
+
+  .sendEmail {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+  }
+
+  .sendEmail input {
+    width: 65%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.1em;
+  }
+
+  .sendEmail button {
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background: linear-gradient(#f369e8, #cf5ac6);
+    color: #eeeeee;
+    font-size: 1.1em;
+  }
+
+  /* ------------------------------------ */
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
